@@ -7,7 +7,7 @@ It is the template infrastructure made for Discord.JS v14.
    </a>
    </div>
 # Note 
-Put your bot's token in the "" of the 2 codes below.
+Put your bot's token in "" of the 2 codes below in the index.js file.
 
 - client.token = ""
 
