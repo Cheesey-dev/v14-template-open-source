@@ -17,5 +17,5 @@ const ws = require("ws")
 
 require("./utils/slash-loader.js")(client);
 
-client.token = "MTA0MDI3NTQyODU4NzM0ODA4OQ.Gwb9VC.GoP3WyAn8kMNVolXMbM3XzDgKdXMh48BY5IFKQ"
-client.login("MTA0MDI3NTQyODU4NzM0ODA4OQ.Gwb9VC.GoP3WyAn8kMNVolXMbM3XzDgKdXMh48BY5IFKQ")
+client.token = ""
+client.login("")
