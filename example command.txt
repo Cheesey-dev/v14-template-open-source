@@ -1,0 +1,18 @@
+const Discord = require('discord.js');
+const {ActionRowBuilder, ButtonBuilder, ButtonStyle} = require("discord.js") 
+const db = require('croxydb') 
+
+const { SlashCommandBuilder } = require("@discordjs/builders");
+module.exports = {
+    data: new SlashCommandBuilder()
+    .setName("deneme")
+    .setDescription("Deneme komudu"),
+    global: true,
+    run: async (client, interaction) => {
+
+        const embed = new Discord.EmbedBuilder()
+        .setDescription("Deneme asko")
+
+        interaction.reply({ embeds: [embed] })
+} 
+}
