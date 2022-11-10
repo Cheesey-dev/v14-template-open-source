@@ -8,5 +8,7 @@ It is the template infrastructure made for Discord.JS v14.
    </div>
 # Note 
 Put your bot's token in the "" of the 2 codes below.
+
 - client.token = ""
+
 - client.login("")
